@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outlier TCC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css do pj de pw.css">
+</head>
+
+<body>
+    <header>
+        <h1>Open Space</h1>
+    </header>
+
+    <div class="menu-bar">
+    <nav>
+      <ul class="menu">
+        <li><a href="#resumo">Resumo</a></li>
+        <li><a href="#objetivo">Objetivo</a></li>
+        <li><a href="#ods">ODS</a></li>
+        <li><a href="#resultados">Resultados</a></li>
+        <li><a href="#tecnologias">Tecnologias</a></li>
+        <li><a href="#contato">Contato</a></li>
+        
+      </ul>
+    </nav>    
+  </div>
+  
+    <main>
+        <section id="resumo">
+            <h2>Resumo</h2>
+            <p>Este projeto propõe a automação de estacionamentos por meio da integração entre hardware (sensores ultrassônicos, Arduino, cancelas) e software (aplicativo móvel, visão computacional). Utiliza tecnologias como LPR, RFID e QR Code para otimizar o acesso, a organização e a segurança.</p>
+            <p>A solução visa reduzir filas, melhorar a gestão de vagas e garantir segurança digital, tudo com componentes acessíveis. Conclui-se que a automação pode transformar a experiência dos usuários e tornar a operação mais eficiente e inteligente.</p>
+            <ul>
+                <li>Hardware: sensores ultrassônicos, Arduino, cancelas inteligentes.</li>
+                <li>Software: aplicativo móvel com visão computacional.</li>
+                <li>Tecnologias utilizadas: LPR, RFID, QR Code.</li>
+                <li>Benefícios: redução de filas, gestão precisa de vagas, segurança digital.</li>
+            </ul>
+            <p>Conclui-se que a automação com tecnologias acessíveis pode revolucionar a experiência e eficiência na gestão de estacionamentos.</p>
+        </section>
+
+        <section id="objetivo">
+            <h2>Objetivo</h2>
+            <article>
+                <h3>Objetivo Geral</h3>
+                <p>O sistema é estruturado em três dimensões principais, cada uma com metas específicas:</p>
+                <ul>
+                    <li><strong>Operacional:</strong> Cancelas com reconhecimento de placas e sensores para otimizar o fluxo de entrada e saída.</li>
+                    <li><strong>Sinalização dinâmica:</strong> Orientação em tempo real para vagas disponíveis.</li>
+                    <li><strong>Segurança:</strong> QR Codes, câmeras, backups e testes de falhas.</li>
+                    <li><strong>Analítica:</strong> Relatórios, padrões de uso e projeções de demanda acessíveis via app.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Justificativa</h3>
+                <p>A modernização dos sistemas de estacionamento é urgente diante dos impactos econômicos e sociais dos modelos tradicionais. Cerca de 30% do tráfego urbano decorre da busca por vagas, gerando poluição e perda de produtividade. Os sistemas manuais são limitados e vulneráveis a fraudes.</p>
+                <ul>
+                    <li>Arquitetura modular permite implementação gradual — começando pelo controle de acesso automatizado e evoluindo para o monitoramento inteligente de vagas.</li>
+                    <li>Uso de componentes como Arduino e sensores ultrassônicos garante baixo custo com bom desempenho, viabilizando a automação mesmo em operações menores.</li>
+                </ul>
+                <p>Além disso, o sistema é compatível com plataformas de mobilidade urbana e gestão de tráfego, oferecendo coleta e análise de dados em tempo real. Isso transforma o estacionamento em uma ferramenta estratégica para cidades inteligentes.</p>
+                <ul>
+                    <li>Coleta e análise de dados em tempo real.</li>
+                    <li>Compatibilidade com sistemas de mobilidade urbana.</li>
+                </ul>
+                <p>A experiência do usuário é central: o acesso a informações sobre vagas, por meio de displays físicos, aplicativo móvel e integração com sistemas veiculares, melhora a satisfação e reforça a imagem do estabelecimento como moderno e eficiente.</p>
+                <ul>
+                    <li>Informações sobre vagas via displays físicos e aplicativo móvel.</li>
+                    <li>Integração com sistemas veiculares.</li>
+                    <li>Melhoria na satisfação e na imagem do estabelecimento.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Metodologia</h3>
+                <p>A abordagem foi incremental, com ciclos curtos de desenvolvimento e validação. O projeto seguiu etapas práticas:</p>
+                <ul>
+                    <li>Definição do problema, objetivos e escopo.</li>
+                    <li>Pesquisa exploratória sobre demandas e soluções tecnológicas.</li>
+                    <li>Prototipagem com Arduino UNO e sensores HC-SR04.</li>
+                    <li>App desenvolvido com FlutterFlow.</li>
+                    <li>Banco de dados leve com Supabase.</li>
+                    <li>Testes manuais para leitura de ocupação e comunicação entre hardware e app.</li>
+                </ul>
+                <p>O sistema ainda não foi testado em ambiente real e sua arquitetura está em fase inicial.</p>
+            </article>
+        </section>
+
+        <section id="ods">
+          <h2>Objetivo de Desenvolvimento Sustentável (ODS) - ODS 9</h2>
+          <p>O Projeto Open Space está diretamente alinhado com o ODS 9, que visa promover a inovação, a construção de infraestrutura resiliente e a adoção de tecnologias sustentáveis.</p>
+          <p>A automação dos estacionamentos utiliza tecnologias avançadas, como sensores ultrassônicos, visão computacional e integração com aplicativos móveis, contribuindo para a inovação no setor de gestão de espaços urbanos.</p>
+          <ul>
+              <center><img src="fotos/odd 9.png" alt="Imagem da ODS9" class="img-arredondada" ></center>
+              <li><strong>ODS 9 – Indústria, Inovação e Infraestrutura:</strong> Ao integrar hardware e software de ponta, o projeto não só oferece uma solução moderna e escalável para a gestão de estacionamentos, mas também incentiva a adoção de novas tecnologias que podem ser replicadas em diferentes cidades e contextos.</li>
+            </ul>
+      </section>      
+
+        <section id="resultados">
+          <div class="section-white-box">
+          <h2>Resultados e testes</h2>
+          <div class="card-container">
+        
+            <div class="card">
+              <h4>Funcionamento do Circuito</h4>
+              <p>O sistema com sensores de distância identificou corretamente a ocupação das vagas em ambiente controlado.</p>
+            </div>
+        
+            <div class="card">
+              <h4>Aplicativo Mobile</h4>
+              <p>Foi possível acessar o status das vagas e realizar login. Ainda há ajustes visuais e correções pendentes.</p>
+            </div>
+        
+            <div class="card">
+              <h4>Integração dos Módulos</h4>
+              <p>Os módulos funcionam separadamente. A integração está em andamento, com testes iniciais positivos.</p>
+            </div>
+
+            <div class="card">
+              <h4> Teste em Ambiente Real</h4>
+              <p>O sistema ainda não foi testado em um estacionamento real em funcionamento, o que limita a validação prática da solução.</p>
+            </div>
+
+            <div class="card">
+              <h4>Arquitetura do Sistema</h4>
+              <p>A arquitetura atual não é robusta nem escalável, sendo adequada apenas para testes iniciais e ambientes controlados(Como por exemplo as maquétes).</p>
+            </div>
+            </div>
+        </section>
+        
+        <div class="video-container">
+          <h2>Vídeo do Protótipo</h2>
+          <p>Veja como o sistema de vagas funciona em tempo real:</p>
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/jNMce0uVZ8k?si=aQDdtVwEIbihnqNe" 
+            title="Protótipo Open Space" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="tecnologias">
+      <h2>Tecnologias Utilizadas</h2>
+      <ul>
+        <li><strong>Arduino UNO:</strong> controle de sensores e cancelas</li>
+        <li><strong>HC-SR04:</strong> sensores ultrassônicos de distância</li>
+        <li><strong>FlutterFlow:</strong> desenvolvimento do app mobile</li>
+        <li><strong>Supabase:</strong> banco de dados leve e escalável</li>
+        <li><strong>LPR:</strong> reconhecimento de placas via visão computacional</li>
+        <li><strong>RFID e QR Code:</strong> autenticação segura</li>
+      </ul>
+    </section>
+    
+
+    <section id="contato">
+      <h2>Participantes</h2>
+      <div class="card-container">
+    
+        <div class="card">
+          <h4>Guilherme Olinto</h4>
+          <p>Especialista em integração de hardware e testes com sensores.</p>
+        </div>
+    
+        <div class="card">
+          <h4>Guilherme Silva</h4>
+          <p>Responsável pelo desenvolvimento do aplicativo e interface.</p>
+        </div>
+    
+        <div class="card">
+          <h4>Geovanna Queiroz</h4>
+          <p>Documentação técnica e análise de dados do sistema.</p>
+        </div>
+    
+        <div class="card">
+          <h4>Rafael Dantas</h4>
+          <p>Prototipagem e testes em ambiente controlado.</p>
+        </div>
+    
+        <div class="card">
+          <h4>Thiago Pereira</h4>
+          <p>Arquitetura do sistema e validação dos módulos.</p>
+        </div>
+    
+        <div class="card">
+          <h4>Guilherme Maia</h4>
+          <p>Arquitetura do sistema e validação dos módulos.</p>
+        </div>
+      </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 Outlier | Todos os direitos reservados.</p>
+    <p>Email: contato@outlier.com</p>
+</footer>
+</body>
+</html>
